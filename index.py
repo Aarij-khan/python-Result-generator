@@ -11,8 +11,8 @@ def calculate(M2, M3, M4, M5):
     percentage = (total / 400) * 100
     return percentage
 
-print("Welcome to the percentage calculator")
 
+print("Welcome to the percentage calculator")
 M2 = percentage("Enter your OOP marks\n")
 M3 = percentage("Enter your DLD marks\n")
 M4 = percentage("Enter your DSA marks\n")
@@ -96,7 +96,7 @@ def newfun(thisOne):
 array3 = list(map(newfun,array))
 print('array2:', array3)
 
-
+# while loop
 i = 0
 while i < len(array) :
     array2.append(array[i] + 10)
