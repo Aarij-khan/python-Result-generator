@@ -102,4 +102,51 @@ while i < len(array) :
     array2.append(array[i] + 10)
     i += 1
 print('array2: ', array2)
+students = [
+    {
+        "name": "Ali Ahmed",
+        "age": 20,
+        "id": 1,
+        "grades": {"Math": 85, "English": 78, "Science": 92},
+        "email": "ali.ahmed@example.com"
+    },
+    {
+        "name": "Sara Khan",
+        "age": 22,
+        "id": 2,
+        "grades": {"Math": 88, "English": 90, "Science": 85},
+        "email": "sara.khan@example.com"
+    },
+    {
+        "name": "Bilal Tariq",
+        "age": 21,
+        "id": 3,
+        "grades": {"Math": 75, "English": 82, "Science": 89},
+        "email": "bilal.tariq@example.com"
+    },
+    {
+        "name": "Ayesha Malik",
+        "age": 23,
+        "id": 4,
+        "grades": {"Math": 91, "English": 87, "Science": 93},
+        "email": "ayesha.malik@example.com"
+    },
+    {
+        "name": "Hamza Rafiq",
+        "age": 20,
+        "id": 5,
+        "grades": {"Math": 78, "English": 74, "Science": 80},
+        "email": "hamza.rafiq@example.com"
+    }
+]
 
+students[0]['theww'] = "update"
+print(students)
+id = int(input("enter any student id\n"))
+filterStudent = list(filter(lambda x : x['id']==id,students))
+if filterStudent:
+    print(filterStudent)
+else:
+    print("student not found")    
+
+   
