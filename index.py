@@ -110,12 +110,12 @@ students = [
         "name": "Ali Ahmed",
         "age": 20,
         "id": 1,
-        "grades": {"Math": 85, "English": 78, "Science": 92},
+        "grades": {"Math": 75, "English": 18, "Science": 62},
     },
     {
         "name": "Sara Khan",
         "id": 2,
-        "grades": {"Math": 88, "English": 90, "Science": 85},
+        "grades": {"Math": 88, "English": 90, "Science": 65},
     },
     {
         "name": "Bilal Tariq",
@@ -127,22 +127,21 @@ students = [
         "name": "Ayesha Malik",
         "age": 23,
         "id": 4,
-        "grades": {"Math": 91, "English": 87, "Science": 93},
+        "grades": {"Math": 21, "English": 87, "Science": 43},
     },
     {
         "name": "Hamza Rafiq",
         "id": 5,
-        "grades": {"Math": 78, "English": 74, "Science": 80},
+        "grades": {"Math": 58, "English": 74, "Science": 80},
     }
 ]
 
-students[0]['theww'] = "update"
 print(students)
 id = int(input("enter any student id\n"))
 filterStudent = list(filter(lambda x : x['id']==id,students))
 if filterStudent:
     print(filterStudent)
 else:
-    print("student not found")    
+    print("student not exist in database")    
 
    
