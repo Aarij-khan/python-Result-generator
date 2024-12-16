@@ -31,7 +31,7 @@ elif result >= 30:
     print("Your grade is C") 
 else:
     print("You have failed.")    
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 newlist = ['aarij khan']
 list.append("10")
 # append don't return any value
@@ -41,11 +41,10 @@ result = list.insert(0, 'khan')
 
 result = list.pop()
 # pop return the value
-
 result = list.pop(2)
 # pop return the value and can delete with index inside paranthesis
 
-result = list.remove(10)
+
 # remove don't return any value
 
 result = list.index(10)
@@ -82,7 +81,11 @@ def newFun(thisOne) :
     print('thisOne: ', thisOne)
     return f"hello {thisOne}" 
 
-# map loop without anononus function  
+# map loop without anononus function 
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list.remove(4)
+print(list)
+ 
 newOne = list(map(lambda x :  f'{x} * 2 = {x * 2}' ,array))    
 print('newOne: ', newOne)
 array = ["hello", "world", "cat", "python", "AI"]
