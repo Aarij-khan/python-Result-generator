@@ -82,7 +82,7 @@ def newFun(thisOne) :
     return f"hello {thisOne}" 
 
 # map loop without anononus function 
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list = [1, 2, 3, 4, 5, 6]
 list.remove(4)
 print(list)
  
@@ -111,35 +111,28 @@ students = [
         "age": 20,
         "id": 1,
         "grades": {"Math": 85, "English": 78, "Science": 92},
-        "email": "ali.ahmed@example.com"
     },
     {
         "name": "Sara Khan",
-        "age": 22,
         "id": 2,
         "grades": {"Math": 88, "English": 90, "Science": 85},
-        "email": "sara.khan@example.com"
     },
     {
         "name": "Bilal Tariq",
         "age": 21,
         "id": 3,
         "grades": {"Math": 75, "English": 82, "Science": 89},
-        "email": "bilal.tariq@example.com"
     },
     {
         "name": "Ayesha Malik",
         "age": 23,
         "id": 4,
         "grades": {"Math": 91, "English": 87, "Science": 93},
-        "email": "ayesha.malik@example.com"
     },
     {
         "name": "Hamza Rafiq",
-        "age": 20,
         "id": 5,
         "grades": {"Math": 78, "English": 74, "Science": 80},
-        "email": "hamza.rafiq@example.com"
     }
 ]
 
