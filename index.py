@@ -12,11 +12,11 @@ def calculate(M2, M3, M4, M5):
     return percent
 
 
-print("Welcome to the percentage calculator")
-M2 = percent("Enter your OOP marks\n")
-M3 = percent("Enter your DLD marks\n")
-M4 = percent("Enter your DSA marks\n")
-M5 = percent("Enter your CS marks\n")
+print("Welcome to the result generator")
+M2 = percent("Enter your physics marks\n")
+M3 = percent("Enter your computer marks\n")
+M4 = percent("Enter your english marks\n")
+M5 = percent("Enter your math marks\n")
 
 result = calculate(M2, M3, M4, M5)
 print("Your percentage is", result)
