@@ -107,15 +107,15 @@ while i < len(array) :
 print('array2: ', array2)
 students = [
     {
+        "name": "Sara Khan",
+        "id": 2,
+        "grades": {"Math": 88, "English": 90, "Science": 65},
+    },
+    {
         "name": "Ali Ahmed",
         "age": 20,
         "id": 1,
         "grades": {"Math": 75, "English": 18, "Science": 62},
-    },
-    {
-        "name": "Sara Khan",
-        "id": 2,
-        "grades": {"Math": 88, "English": 90, "Science": 65},
     },
     {
         "name": "Bilal Tariq",
@@ -142,6 +142,6 @@ filterStudent = list(filter(lambda x : x['id']==id,students))
 if filterStudent:
     print(filterStudent)
 else:
-    print("student not exist in database")    
+    print("student not exist")    
 
    
