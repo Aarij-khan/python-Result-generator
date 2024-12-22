@@ -112,16 +112,10 @@ students = [
         "grades": {"Math": 88, "English": 90, "Science": 65},
     },
     {
-        "name": "Ali Ahmed",
-        "age": 20,
-        "id": 1,
-        "grades": {"Math": 75, "English": 18, "Science": 62},
-    },
-    {
         "name": "Bilal Tariq",
         "age": 21,
         "id": 3,
-        "grades": {"Math": 75, "English": 82, "Science": 89},
+        "grades": {"Math": 15, "English": 82, "Science": 89},
     },
     {
         "name": "Ayesha Malik",
@@ -129,11 +123,7 @@ students = [
         "id": 4,
         "grades": {"Math": 21, "English": 87, "Science": 43},
     },
-    {
-        "name": "Hamza Rafiq",
-        "id": 5,
-        "grades": {"Math": 58, "English": 74, "Science": 80},
-    }
+   
 ]
 
 print(students)
