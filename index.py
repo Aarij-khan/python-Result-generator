@@ -1,22 +1,22 @@
-def percentage(placeholder):
+def percent(placeholder):
     while True: 
         try:
             name = int(input(placeholder))  
             return name  
         except ValueError:  
-            print("Please enter a valid number.")
+            print("Please enter a number")
 
 def calculate(M2, M3, M4, M5):
     total = M2 + M3 + M4 + M5
-    percentage = (total / 400) * 100
-    return percentage
+    percent = (total / 400) * 100
+    return percent
 
 
 print("Welcome to the percentage calculator")
-M2 = percentage("Enter your OOP marks\n")
-M3 = percentage("Enter your DLD marks\n")
-M4 = percentage("Enter your DSA marks\n")
-M5 = percentage("Enter your CS marks\n")
+M2 = percent("Enter your OOP marks\n")
+M3 = percent("Enter your DLD marks\n")
+M4 = percent("Enter your DSA marks\n")
+M5 = percent("Enter your CS marks\n")
 
 result = calculate(M2, M3, M4, M5)
 print("Your percentage is", result)
