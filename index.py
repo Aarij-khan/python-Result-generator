@@ -132,14 +132,9 @@ students = [
         "name": "Ayesha Malik",
         "age": 23,
         "id": 4,
-        "grades": {"Math": 21, "English": 87, "Science": 43},
+        "grades": {"phyics": 21, "English": 87, "Science": 43},
     },
-    {
-        "name": "Ayesha Malik",
-        "age": 23,
-        "id": 4,
-        "grades": {"Math": 21, "English": 87, "Science": 43},
-    },
+    
    
 ]
 
@@ -149,6 +144,6 @@ filterStudent = list(filter(lambda x : x['id']==id,students))
 if filterStudent:
     print(filterStudent)
 else:
-    print("student not exist")    
+    print("student not found")    
 
    
