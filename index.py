@@ -111,12 +111,6 @@ students = [
         "grades": {"Math": 88, "English": 90, "Science": 65},
     },
     {
-        "name": "Bilal Tariq",
-        "age": 21,
-        "id": 3,
-        "grades": {"Math": 15, "English": 82, "Science": 89},
-    },
-    {
         "name": "Ayesha Malik",
         "age": 23,
         "id": 4,
