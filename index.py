@@ -1,8 +1,8 @@
 def percent(InnerText):
     while True: 
         try:
-            name = int(input(InnerText))  
-            return name  
+            val = int(input(InnerText))  
+            return val  
         except ValueError:  
             print("Please enter a number")
 
