@@ -1,7 +1,7 @@
-def percent(placeholder):
+def percent(InnerText):
     while True: 
         try:
-            name = int(input(placeholder))  
+            name = int(input(InnerText))  
             return name  
         except ValueError:  
             print("Please enter a number")
@@ -12,7 +12,6 @@ def calculate(M2, M3, M4, M5):
     return percent
 
 
-print("Welcome to the result generator")
 M2 = percent("Enter your physics marks\n")
 M3 = percent("Enter your computer marks\n")
 M4 = percent("Enter your english marks\n")
