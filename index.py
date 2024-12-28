@@ -12,12 +12,12 @@ def calculate(M2, M3, M4, M5):
     return percent
 
 
-M2 = percent("Enter your physics marks\n")
-M3 = percent("Enter your computer marks\n")
-M4 = percent("Enter your english marks\n")
-M5 = percent("Enter your math marks\n")
+Marks2 = percent("Enter your physics marks\n")
+Marks3 = percent("Enter your computer marks\n")
+Marks4 = percent("Enter your english marks\n")
+Marks5 = percent("Enter your math marks\n")
 
-result = calculate(M2, M3, M4, M5)
+result = calculate(Marks2, Marks3, Marks4, Marks5)
 print("Your percentage is", result)
 
 if result >= 80:
@@ -29,7 +29,7 @@ elif result >= 40:
 elif result >= 30:
     print("Your grade is C") 
 else:
-    print("You have failed.")    
+    print("You are failed.")    
 
 newlist = ['aarij khan']
 list.append("10")
