@@ -139,5 +139,8 @@ if filterStudent:
     print(filterStudent)
 else:
     print("student not found")    
-
+# to find the lenght of integer
+strings = 1333
+changetonum = str(strings)
+print('changetonum: ', len(changetonum))
    
